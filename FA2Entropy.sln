@@ -1,0 +1,28 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "FA2Entropy", "FA2Entropy.vcxproj", "{8F3A2C41-7B6E-4E52-9C1D-2A5B7E9D4C10}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "FA2EntropyLauncher", "launch\FA2EntropyLauncher.vcxproj", "{A7C41B92-3E5D-4F18-9B6C-0D2E5A7C4F31}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8F3A2C41-7B6E-4E52-9C1D-2A5B7E9D4C10}.Debug|Win32.ActiveCfg = Debug|Win32
+		{8F3A2C41-7B6E-4E52-9C1D-2A5B7E9D4C10}.Debug|Win32.Build.0 = Debug|Win32
+		{8F3A2C41-7B6E-4E52-9C1D-2A5B7E9D4C10}.Release|Win32.ActiveCfg = Release|Win32
+		{8F3A2C41-7B6E-4E52-9C1D-2A5B7E9D4C10}.Release|Win32.Build.0 = Release|Win32
+		{A7C41B92-3E5D-4F18-9B6C-0D2E5A7C4F31}.Debug|Win32.ActiveCfg = Debug|Win32
+		{A7C41B92-3E5D-4F18-9B6C-0D2E5A7C4F31}.Debug|Win32.Build.0 = Debug|Win32
+		{A7C41B92-3E5D-4F18-9B6C-0D2E5A7C4F31}.Release|Win32.ActiveCfg = Release|Win32
+		{A7C41B92-3E5D-4F18-9B6C-0D2E5A7C4F31}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

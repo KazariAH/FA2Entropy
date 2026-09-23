@@ -1,0 +1,36 @@
+// SPDX-License-Identifier: AGPL-3.0-or-later
+// Copyright (C) 2026 faucheux
+
+// =============================================================================
+//  FA2Entropy resources
+//
+//  Four ini files are embedded in the DLL, so the release package needs no ini
+//  files and players never see them:
+//      100 = FinalAlert.ini    -> the config the editor actually reads (language / asset paths ...)
+//      101 = Quantum01.ini     -> quantum entropy config
+//      102 = Quantum02.ini     -> quantum entropy language
+//      103 = FA2Entropy.ini    -> DLL behaviour config (which files to intercept, which menus to remove ...)
+//
+//  The icon is embedded too:
+//      201 = legacyicon.ico    -> set on the editor window at startup (title bar + taskbar)
+//
+//  To change the content, edit the files of the same name in assets\ and rebuild.
+//  The inis are packed as raw bytes, so ANSI and UTF-8 both work.
+//
+//  These IDs must match src\lock_config.h.
+// =============================================================================
+
+#include <windows.h>
+
+#define RES_EDITOR_INI    100
+#define RES_QEC_CONFIG    101
+#define RES_QEC_LANGUAGE  102
+#define RES_DIRECTIVES    103
+#define RES_APP_ICON      201
+
+RES_EDITOR_INI     RCDATA "assets\\FinalAlert.ini"
+RES_QEC_CONFIG     RCDATA "assets\\Quantum01.ini"
+RES_QEC_LANGUAGE   RCDATA "assets\\Quantum02.ini"
+RES_DIRECTIVES     RCDATA "assets\\FA2Entropy.ini"
+
+RES_APP_ICON       ICON   "launch\\legacyicon.ico"

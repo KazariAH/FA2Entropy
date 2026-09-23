@@ -1,0 +1,15 @@
+// SPDX-License-Identifier: AGPL-3.0-or-later
+// Copyright (C) 2026 faucheux
+
+// =============================================================================
+//  FA2SPLaunch resources
+//
+//  Icon: legacyicon.ico (copied from "Quantum 内测版\ClientMain\ClientResource\")
+//  To change the icon, replace legacyicon.ico in this directory and rebuild.
+// =============================================================================
+
+#include <windows.h>
+
+#define IDI_MAIN 101
+
+IDI_MAIN ICON "legacyicon.ico"

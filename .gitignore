@@ -1,0 +1,21 @@
+# Build output
+bin/
+obj/
+.vs/
+
+# Local backups / scratch (not part of the project)
+_backup/
+_backup_editor_inis/
+_shot_*.png
+
+# Logs
+*.log
+
+# Local reference copies (not part of the project)
+_preref/
+
+# Maintainer-local helper scripts (not part of the public repo)
+*.ps1
+
+# Maintainer-local real configuration data (the public assets\ hold examples only)
+_private/

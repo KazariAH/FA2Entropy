@@ -1,0 +1,13 @@
+# Normalize line endings: keep CRLF for files that Windows compiles / parses,
+# LF for plain text that is only read.
+* text=auto
+*.ps1  text eol=crlf
+*.cpp  text eol=crlf
+*.h    text eol=crlf
+*.c    text eol=crlf
+*.rc   text eol=crlf
+*.ini  text eol=crlf
+*.md   text eol=lf
+LICENSE text eol=lf
+.gitattributes text eol=lf
+.gitignore text eol=lf
